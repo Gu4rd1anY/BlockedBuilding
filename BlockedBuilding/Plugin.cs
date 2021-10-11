@@ -39,8 +39,8 @@ namespace BlockedBuilding
             {
                 TranslationList list = new TranslationList
                 {
-                    { "block_msg", "На данной территории нельзя ничего ставить." },
-                    { "create_point", "Вы создали точку. На вашем местоположении в радиусе: {0} запрещены постройки." }
+                    { "block_msg", "You can't put anything on this territory." },
+                    { "create_point", "You have created a point. Buildings are prohibited at your location within a radius of: {0}." }
                 };
                 return list;
             }
